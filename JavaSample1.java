@@ -1,3 +1,5 @@
+// TO DO: finish implementing the algorithm
+
 // The Business Process you are to implement:
 // write a Java Program to add the numbers 100 to 1
 // count down by 3 each time
@@ -17,8 +19,11 @@ public class NumberCounter{
 class NumberHandler{
 	public int AddNumberSeries(int startNumber, int endNumber, int stepNumber){
 		int Sum = 0;
+		int currentNumber = endNumber;
+		for ( ;  ; ){
+			currentNumber -= stepNumber;
+		}
 
 		return Sum;
 	}
 }
-
